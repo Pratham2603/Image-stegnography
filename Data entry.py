@@ -15,6 +15,11 @@ first_name_label = tkinter.Label(user_info_frame,text="First Name")
 first_name_label.grid(row=0,column=0)
 last_name_label = tkinter.Label(user_info_frame,text="last name")
 last_name_label.grid(row=0,column=1)
+first_name_label = tkinter.Label(user_info_frame,text="First Name")
+first_name_label.grid(row=0,column=0)
+last_name_label = tkinter.Label(user_info_frame,text="last name")
+last_name_label.grid(row=0,column=1)
+
 
 first_name_entry = tkinter.Entry(user_info_frame)
 last_name_entry = tkinter.Entry(user_info_frame)
